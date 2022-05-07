@@ -72,7 +72,7 @@ open class ZodifierManager<T: ZodifierProtocol> {
     private var modifiedObjects = [Int: [ZodifierConfiguration]]()
     
     lazy var ZodifierCleanerKey: String = {
-       return "\(object_getClassName(self))ZodifierCleanerKey"
+       return "\(NSStringFromClass(type(of: self))).ZodifierCleanerKey"
     }()
 
     open func setup<O: AnyObject>(_ object: O?, applyBlock: @escaping (O, T) -> Void) {
