@@ -1,9 +1,10 @@
 # Zodifier
 
-[![CI Status](https://img.shields.io/travis/lzackx/Zodifier.svg?style=flat)](https://travis-ci.org/lzackx/Zodifier)
 [![Version](https://img.shields.io/cocoapods/v/Zodifier.svg?style=flat)](https://cocoapods.org/pods/Zodifier)
 [![License](https://img.shields.io/cocoapods/l/Zodifier.svg?style=flat)](https://cocoapods.org/pods/Zodifier)
 [![Platform](https://img.shields.io/cocoapods/p/Zodifier.svg?style=flat)](https://cocoapods.org/pods/Zodifier)
+
+Modified from [ThemeManager](https://github.com/azone/ThemeManager)
 
 ## Example
 
